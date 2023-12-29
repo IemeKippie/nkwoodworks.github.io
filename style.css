@@ -1,0 +1,114 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #f8f8f8; /* Light background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background: #333; /* Blue gradient background */
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav {
+    background: #190707;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+    background: #fff; /* Darker background for navigation links */
+}
+
+nav a:hover {
+    background: #3498db; /* Highlight color on hover */
+}
+
+section {
+    padding: 50px;
+    background: #fff; /* White background for content sections */
+    box-shadow: 0px 0px 20px rgba; /* Subtle shadow for depth */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3498db; /* Blue background for the footer */
+    color: #fff;
+}
+
+#logo1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    opacity: 100; /* Adjust the opacity as needed */
+}
+
+#logo1 img:hover {
+    opacity: 500;
+}
+
+/* The bottom half with grey background */
+section {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background: #808080; /* Grey background for the entire bottom half */
+}
+
+/* Other styles as needed */
+
+.image-link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rounded-image {
+    display: block;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image-link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rounded-image {
+    display: block;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 50%;
+}
